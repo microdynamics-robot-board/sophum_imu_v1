@@ -1,0 +1,34 @@
+(ExpressProject "SOPHUM_IMU"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\sch_lib\sophum_imu.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\sophum_imu.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (14046/SO
+      (FullPartName "14046/SO.Normal")
+      (LibraryName
+         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\MISC.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\lib\sch_lib\sophum_imu.olb")
+      (Select "Design Resources" "Library" "..\lib\sch_lib\sophum_imu.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 328"))
+      (Tab 0)))
+  (MPSSessionName "abcd"))
