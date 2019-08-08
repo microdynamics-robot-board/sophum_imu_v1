@@ -14,6 +14,46 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CAPACITOR(NON-POL)
+      (FullPartName "CAPACITOR(NON-POL).Normal")
+      (LibraryName
+         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR POL"
+      (FullPartName "CAPACITOR POL.Normal")
+      (LibraryName
+         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR NON-POL"
+      (FullPartName "CAPACITOR NON-POL.Normal")
+      (LibraryName
+         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName
+         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LSM6DSM
+      (FullPartName "LSM6DSM.Normal")
+      (LibraryName
+         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
+      (DeviceIndex "0"))
+    (RES
+      (FullPartName "RES.Normal")
+      (LibraryName
+         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (14046/SO
       (FullPartName "14046/SO.Normal")
       (LibraryName
@@ -22,13 +62,27 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\sophum_imu.dsn")
+      (Path "Design Resources" ".\sophum_imu.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "..\lib\sch_lib\sophum_imu.olb")
-      (Select "Design Resources" "Library" "..\lib\sch_lib\sophum_imu.olb"))
+      (Select "Design Resources" ".\sophum_imu.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 328"))
-      (Tab 0)))
-  (MPSSessionName "abcd"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1198 26 397")
+        (Scroll "0 325")
+        (Zoom "248")
+        (Occurrence "/"))
+      (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\SCH\SOPHUM_IMU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "abcd")
+  (LastUsedLibraryBrowseDirectory
+     "E:\Cadence\Cadence_SPB_16.6-2015\tools\capture\library"))
