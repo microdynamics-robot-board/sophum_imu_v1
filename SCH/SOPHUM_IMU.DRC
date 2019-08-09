@@ -1,0 +1,111 @@
+Date and Time : 08/08/19 17:30:42
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC
+    GND
+
+Reporting Net Names
+    SCL
+    MINT
+    N01379
+    SDA
+    GND
+    AINT
+    GINT
+    VCC
+    BINT
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: SOPHUM_IMU 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+#1 ERROR(ORCAP-36055): Illegal character in \capacitor(pol).normal\.
+#2 ERROR(ORCAP-36055): Illegal character in CAPACITOR(POL).
+#3 ERROR(ORCAP-36055): Illegal character in \capacitor(pol).normal\.
+#4 ERROR(ORCAP-36055): Illegal character in CAPACITOR(POL).
+#5 ERROR(ORCAP-36055): Illegal character in \capacitor(pol).normal\.
+#6 ERROR(ORCAP-36055): Illegal character in CAPACITOR(POL).
+#7 ERROR(ORCAP-36055): Illegal character in \capacitor(pol).normal\.
+#8 ERROR(ORCAP-36055): Illegal character in CAPACITOR(POL).
+#9 ERROR(ORCAP-36055): Illegal character in \capacitor(pol).normal\.
+#10 ERROR(ORCAP-36055): Illegal character in CAPACITOR(POL).
+#11 ERROR(ORCAP-36055): Illegal character in \capacitor(pol).normal\.
+#12 ERROR(ORCAP-36055): Illegal character in CAPACITOR(POL).
+#13 ERROR(ORCAP-36055): Illegal character in \capacitor(pol).normal\.
+#14 ERROR(ORCAP-36055): Illegal character in CAPACITOR(POL).
+#15 ERROR(ORCAP-36055): Illegal character in \header(4x1).normal\.
+#16 ERROR(ORCAP-36055): Illegal character in HEADER(4X1).
+#17 ERROR(ORCAP-36055): Illegal character in \header(4x1).normal\.
+#18 ERROR(ORCAP-36055): Illegal character in HEADER(4X1).
+#19 ERROR(ORCAP-36055): Illegal character in \capacitor(pol).normal\.
+#20 ERROR(ORCAP-36055): Illegal character in CAPACITOR(POL).
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#21 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3: SCHEMATIC1, PAGE1 (165.10, 43.18).
+#22 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, PAGE1 (165.10, 119.38).
+#23 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J2: SCHEMATIC1, PAGE1 (215.90, 119.38).
+#24 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: SCHEMATIC1, PAGE1 (53.34, 33.02).
+#25 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, PAGE1 (45.72, 104.14).
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VDD  VDD  VCC
+                    SCHEMATIC1, PAGE1  (177.80, 35.56) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VDDIO  VDDIO  VCC
+                    SCHEMATIC1, PAGE1  (157.48, 53.34) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VDD  VDD  VCC
+                    SCHEMATIC1, PAGE1  (93.98, 111.76) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VDDIO  VDDIO  VCC
+                    SCHEMATIC1, PAGE1  (93.98, 109.22) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  VCC
+                    SCHEMATIC1, PAGE1  (91.44, 48.26) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDIO  VDDIO  VCC
+                    SCHEMATIC1, PAGE1  (66.04, 60.96) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

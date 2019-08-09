@@ -10,63 +10,85 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Board_sim_option "VHDL_flow"))
-  (Folder "Outputs")
+    (Board_sim_option "VHDL_flow")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\SCH\SOPHUM_IMU.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Report_Netnames "TRUE")
+    (DRC_Check_Single_Node_Nets "FALSE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE"))
+  (Folder "Outputs"
+    (File ".\sophum_imu.drc"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (CAPACITOR(NON-POL)
-      (FullPartName "CAPACITOR(NON-POL).Normal")
+    (VCC_BAR
       (LibraryName
-         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
-      (DeviceIndex "0"))
-    ("CAPACITOR POL"
-      (FullPartName "CAPACITOR POL.Normal")
-      (LibraryName
-         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("CAPACITOR NON-POL"
-      (FullPartName "CAPACITOR NON-POL.Normal")
-      (LibraryName
-         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
       (LibraryName
          "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
       (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
+    (GND
       (LibraryName
-         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (LSM6DSM
-      (FullPartName "LSM6DSM.Normal")
-      (LibraryName
-         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
-      (DeviceIndex "0"))
-    (RES
-      (FullPartName "RES.Normal")
-      (LibraryName
-         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (14046/SO
-      (FullPartName "14046/SO.Normal")
-      (LibraryName
-         "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\MISC.OLB")
-      (DeviceIndex "0")))
+    (HEADER( 4X1)
+    (FullPartName "HEADER(4X1).Normal")
+    (LibraryName
+       "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
+    (DeviceIndex "0"))
+  (CON5
+    (FullPartName "CON5.Normal")
+    (LibraryName
+       "E:\CADENCE\CADENCE_SPB_16.6-2015\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+    (DeviceIndex "0"))
+  (CAPACITOR( POL)
+  (FullPartName "CAPACITOR(POL).Normal")
+  (LibraryName
+     "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
+  (DeviceIndex "0")
+  (MPSSessionName "abcd")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\sophum_imu.dsn")
       (Path "Design Resources" ".\sophum_imu.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\lib\sch_lib\sophum_imu.olb")
-      (Select "Design Resources" ".\sophum_imu.dsn" "SCHEMATIC1" "PAGE1"))
+      (Path "Outputs")
+      (Select "Outputs"
+         "c:\users\abcd\documents\github\sophum_imu\sch\sophum_imu.drc"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -77,12 +99,9 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 1198 26 397")
-        (Scroll "0 325")
-        (Zoom "248")
+        (Scroll "0 111")
+        (Zoom "124")
         (Occurrence "/"))
       (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\SCH\SOPHUM_IMU.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
-  (MPSSessionName "abcd")
-  (LastUsedLibraryBrowseDirectory
-     "E:\Cadence\Cadence_SPB_16.6-2015\tools\capture\library"))
+      (Page "PAGE1"))))
