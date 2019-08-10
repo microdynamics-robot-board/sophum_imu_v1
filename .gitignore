@@ -2,3 +2,13 @@
 *.OLBlck
 *.DBK
 *.DSNlck
+*.log*
+*.rpt*
+*.tag
+*.dml
+*.lck*
+*.brd,*
+*.dra,*
+*AUTOSAVE*
+*.jrl*
+*/signoise.run
