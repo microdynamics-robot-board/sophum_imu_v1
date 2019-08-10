@@ -1,4 +1,4 @@
-Date and Time : 08/08/19 17:30:42
+Date and Time : 08/09/19 23:28:00
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
@@ -23,14 +23,14 @@ Reporting Globals
 
 Reporting Net Names
     SCL
-    MINT
-    N01379
-    SDA
-    GND
     AINT
-    GINT
-    VCC
+    MINT
     BINT
+    VCC
+    GINT
+    N01379
+    GND
+    SDA
 
 Checking Misleading Tap connection
 
@@ -82,27 +82,22 @@ INFO(ORCAP-36105): Checking Missing Pin Numbers
 
 Checking Device with Zero pins  
 INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
-#21 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3: SCHEMATIC1, PAGE1 (165.10, 43.18).
-#22 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, PAGE1 (165.10, 119.38).
-#23 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J2: SCHEMATIC1, PAGE1 (215.90, 119.38).
-#24 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: SCHEMATIC1, PAGE1 (53.34, 33.02).
-#25 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, PAGE1 (45.72, 104.14).
 
 Checking Name Property for Hierarchical Instances  
 
 INFO(ORCAP-2211): Check High Speed Properties Syntax
 
 INFO(ORCAP-2212): Check Power Ground Mismatch
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VDD  VDD  VCC
-                    SCHEMATIC1, PAGE1  (177.80, 35.56) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VDDIO  VDDIO  VCC
-                    SCHEMATIC1, PAGE1  (157.48, 53.34) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VDD  VDD  VCC
-                    SCHEMATIC1, PAGE1  (93.98, 111.76) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VDDIO  VDDIO  VCC
                     SCHEMATIC1, PAGE1  (93.98, 109.22) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VDD  VDD  VCC
+                    SCHEMATIC1, PAGE1  (93.98, 111.76) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VDD  VDD  VCC
+                    SCHEMATIC1, PAGE1  (177.80, 35.56) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  VCC
                     SCHEMATIC1, PAGE1  (91.44, 48.26) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VDDIO  VDDIO  VCC
+                    SCHEMATIC1, PAGE1  (157.48, 53.34) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDIO  VDDIO  VCC
                     SCHEMATIC1, PAGE1  (66.04, 60.96) 
 

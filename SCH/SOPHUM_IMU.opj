@@ -46,10 +46,37 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "C:\Users\abcd\Documents\GitHub\sophum_imu\SCH\NETLIST")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\SOPHUM_IMU.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
   (Folder "Outputs"
     (File ".\sophum_imu.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (VCC_BAR
@@ -84,11 +111,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\sophum_imu.dsn")
-      (Path "Design Resources" ".\sophum_imu.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\abcd\documents\github\sophum_imu\sch\sophum_imu.dsn")
+      (Path "Design Resources"
+         "c:\users\abcd\documents\github\sophum_imu\sch\sophum_imu.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Outputs"
-         "c:\users\abcd\documents\github\sophum_imu\sch\sophum_imu.drc"))
+      (Select "Design Resources"
+         "c:\users\abcd\documents\github\sophum_imu\sch\sophum_imu.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -96,12 +126,25 @@
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 328"))
       (Tab 0))
     (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1290 78 290")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "958 49")
+        (Zoom "266"))
+      (Path
+         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
+      (Package "CAPACITOR-POL"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 1198 26 397")
-        (Scroll "0 111")
-        (Zoom "124")
+        (Scroll "0 329")
+        (Zoom "248")
         (Occurrence "/"))
       (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\SCH\SOPHUM_IMU.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false"))
