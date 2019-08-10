@@ -1,0 +1,130 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/abcd/Documents/GitHub/sophum_imu/PCB/sophum_imu.brd                |
+|                                                    Sat Aug 10 07:47:39 2019  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  AINT         pins ADDED TO this new net
+                                 J2.4           U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BINT         pins ADDED TO this new net
+                                 J2.2           U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GINT         pins ADDED TO this new net
+                                 J2.3           U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           C3.2           
+                                 C4.2           C5.2           C6.2           
+                                 C7.2           C8.2           J1.4           
+                                 U1.1           U1.2           U1.3           
+                                 U1.6           U1.7           U2.6           
+                                 U2.8           U3.3           U3.5           
+                                 U3.8           U3.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MINT         pins ADDED TO this new net
+                                 J2.1           U2.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01379       pins ADDED TO this new net
+                                 C3.1           U2.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this new net
+                                 J1.1           R1.2           U1.13          
+                                 U2.1           U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this new net
+                                 J1.2           R2.2           U1.14          
+                                 U2.4           U3.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 C1.1           C2.1           C4.1           
+                                 C5.1           C6.1           C7.1           
+                                 C8.1           J1.3           R1.1           
+                                 R2.1           U1.5           U1.8           
+                                 U1.12          U2.3           U2.9           
+                                 U2.10          U3.1           U3.6           
+                                 U3.10          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/abcd/Documents/GitHub/sophum_imu/PCB/sophum_imu.brd                |
+|                                                    Sat Aug 10 07:47:39 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAPACITOR-POL_C0402_100NF
+ CAPACITOR-POL_C0402_10UF
+ CAPACITOR-POL_C0402_220NF
+ HEADER-4X1_HDR4X1-2R54-TM-VM_HD
+ LIS2MDL_LGA-12_LIS2MDL
+ LPS22HB_HLGA-10L_LPS22HB
+ LSM6DSM_LGA-14L_LSM6DSM
+ RESISTOR_R0402_4K7
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/abcd/Documents/GitHub/sophum_imu/PCB/sophum_imu.brd                |
+|                                                    Sat Aug 10 07:47:39 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAPACITOR-POL_C0402_100NF 
+ C2                  CAPACITOR-POL_C0402_100NF 
+ C3                  CAPACITOR-POL_C0402_220NF 
+ C4                  CAPACITOR-POL_C0402_100NF 
+ C5                  CAPACITOR-POL_C0402_100NF 
+ C6                  CAPACITOR-POL_C0402_10UF 
+ C7                  CAPACITOR-POL_C0402_100NF 
+ C8                  CAPACITOR-POL_C0402_100NF 
+ J1                  HEADER-4X1_HDR4X1-2R54-TM-VM_HD 
+ J2                  HEADER-4X1_HDR4X1-2R54-TM-VM_HD 
+ R1                  RESISTOR_R0402_4K7    
+ R2                  RESISTOR_R0402_4K7    
+ U1                  LSM6DSM_LGA-14L_LSM6DSM 
+ U2                  LIS2MDL_LGA-12_LIS2MDL 
+ U3                  LPS22HB_HLGA-10L_LPS22HB 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/abcd/Documents/GitHub/sophum_imu/PCB/sophum_imu.brd                |
+|                                                    Sat Aug 10 07:47:39 2019  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ J1.4                           PRIM_FILE      .\pstchip.dat
+ J2.4                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ U1.5                           PRIM_FILE      .\pstchip.dat
+ U2.10                          PRIM_FILE      .\pstchip.dat
+ U3.1                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      59                                        |
+|       Comp definitions added:       8                                        |
+|       Components added      :      15                                        |
+|       Slot property added   :      15                                        |
+|                                                                              |
+|   Total ECO changes reported:      97                                        |
+|------------------------------------------------------------------------------|

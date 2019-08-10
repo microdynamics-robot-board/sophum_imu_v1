@@ -1,0 +1,93 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : sophum_imu.brd                                )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Sat Aug 10 07:47:39 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:/Users/abcd/Documents/GitHub/sophum_imu/SCH/NETLIST'
+Design Directory:            '.'
+Old design name:             'C:/Users/abcd/Documents/GitHub/sophum_imu/PCB/sophum_imu.brd'
+New design name:             'C:/Users/abcd/Documents/GitHub/sophum_imu/PCB/sophum_imu.brd'
+
+CmdLine: netrev -$ -i C:/Users/abcd/Documents/GitHub/sophum_imu/SCH/NETLIST -y 1 -z -q netrev_constraint_report.xml C:/Users/abcd/Documents/GitHub/sophum_imu/PCB/#Taaaaab19328.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/abcd/Documents/GitHub/sophum_imu/SCH/NETLIST/pstchip.dat 
+   Finished reading C:/Users/abcd/Documents/GitHub/sophum_imu/SCH/NETLIST/pstchip.dat (00:00:00.50)
+Starting to read C:/Users/abcd/Documents/GitHub/sophum_imu/SCH/NETLIST/pstxprt.dat 
+   Finished reading C:/Users/abcd/Documents/GitHub/sophum_imu/SCH/NETLIST/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/abcd/Documents/GitHub/sophum_imu/SCH/NETLIST/pstxnet.dat 
+   Finished reading C:/Users/abcd/Documents/GitHub/sophum_imu/SCH/NETLIST/pstxnet.dat (00:00:00.02)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
+           C:/Users/abcd/Documents/GitHub/sophum_imu/LIB/PCB_LIB/PACKAGE/ 
+           C:/Users/abcd/Documents/GitHub/sophum_imu/LIB/PCB_LIB/FLASH/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/padstacks 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
+           C:/Users/abcd/Documents/GitHub/sophum_imu/LIB/PCB_LIB/PAD/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Aug 10 7:47:38 2019
+   DESIGN NAME : 'SOPHUM_IMU'
+   PACKAGING ON Feb 15 2016 19:53:59
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:06:09
+elapsed time  0:00:03
+
