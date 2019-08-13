@@ -111,14 +111,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\abcd\documents\github\sophum_imu\sch\sophum_imu.dsn")
-      (Path "Design Resources"
-         "c:\users\abcd\documents\github\sophum_imu\sch\sophum_imu.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\sophum_imu.dsn")
+      (Path "Design Resources" ".\sophum_imu.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\lib\sch_lib\sophum_imu.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\abcd\documents\github\sophum_imu\sch\sophum_imu.dsn"))
+      (Select "Design Resources" "Library" "..\lib\sch_lib\sophum_imu.olb"
+         "CAPACITOR-NON-POL"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -126,23 +125,11 @@
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 328"))
       (Tab 0))
     (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1290 78 290")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "958 49")
-        (Zoom "266"))
-      (Path
-         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\LIB\SCH_LIB\SOPHUM_IMU.OLB")
-      (Package "CAPACITOR-POL"))
-    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 1198 26 397")
-        (Scroll "0 329")
-        (Zoom "248")
+        (Scroll "347 216")
+        (Zoom "160")
         (Occurrence "/"))
       (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_IMU\SCH\SOPHUM_IMU.DSN")
       (Schematic "SCHEMATIC1")
