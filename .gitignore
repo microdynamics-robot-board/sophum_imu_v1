@@ -9,6 +9,8 @@
 *.lck*
 *.brd,*
 *.dra,*
+*.txt,*
+*.dat,*
 *AUTOSAVE*
 *.jrl*
 */signoise.run
